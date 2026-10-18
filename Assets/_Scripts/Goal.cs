@@ -13,6 +13,7 @@ public class Goal : MonoBehaviour{
 		if (proj != null) {
 			// if so, set goalMet = true
 			Goal.goalMet = true;
+			LevelManager.Instance?.GoalReached();
 
 			// also set the alpha of the color of higher opacity
 			Material mat = GetComponent<Renderer>().material;
