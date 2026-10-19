@@ -57,14 +57,13 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/mission-demolition:docs.loader.js";
+      var loaderUrl = buildUrl + "/docs.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/mission-demolition:docs.data.br",
-        frameworkUrl: buildUrl + "/mission-demolition:docs.framework.js.br",
-        codeUrl: buildUrl + "/mission-demolition:docs.wasm.br",
+        dataUrl: buildUrl + "/docs.data",
+        frameworkUrl: buildUrl + "/docs.framework.js",
+        codeUrl: buildUrl + "/docs.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        decompressionFallback: true,
 
         // If you have a custom web site structure, or want to place multiple Unity build instances on the same page,
         // you can pass fullscreenElementID: "my-unity-fullscreen-container-id", in this configuration field to
